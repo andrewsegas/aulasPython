@@ -1,1 +1,3 @@
 #inicio
+
+print('a')
