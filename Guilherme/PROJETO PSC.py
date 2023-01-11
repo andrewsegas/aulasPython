@@ -1,9 +1,8 @@
+#variavel LISTA, aqui pode colocar varias coisas dentro de uma unica variavel e encontrar com o indice (iniciando pelo zero)
+pergunta = ['O que te faz aqui?', 'especifique melhor o seu problema?', 'pra gente entender melhor, me explique de outra maneira?']
 
-pergunta1 = 'O que te faz aqui?'
-pergunta2= 'especifique melhor o seu problema?'
-pergunta3= 'pra gente entender melhor, me explique de outra maneira?'
 
-resposta1= input(pergunta1)
+resposta1= input(pergunta[0])
 
 #BUSCAR EM BANCO DE DADOS A PALAVRA CHAVE
 
@@ -11,12 +10,12 @@ a= respostaDoBd(resposta1)
 
 if a== '':
     #FAZER OUTRA PERGUNTA
-    input(pergunta2)
+    input(pergunta[1])
     #BUSCAR EM BANCO DE DADOS A PALAVRA CHAVE
 
     a= respostaDoBd()
     if a=='':
-        input(pergunta3) 
+        input(pergunta[2]) 
         #BUSCAR EM BANCO DE DADOS A PALAVRA CHAVE
 
         a= respostaDoBd()
