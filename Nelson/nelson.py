@@ -1,2 +1,1 @@
 #inicio
-print("meu peru")
