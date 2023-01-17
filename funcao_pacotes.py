@@ -1,3 +1,3 @@
-from Rafael import testeFuncao
+from . import testeFuncao
 
 testeFuncao.testeRafa()

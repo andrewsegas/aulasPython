@@ -10,5 +10,5 @@ for p in range(nSoma):
     valores=0
     print("inicio da soma")
     for i in range(nNumeros):
-        valores+=int(funcaoSoma())
-    print("valor="+str(valores) )
+        valores += int(funcaoSoma())
+    print("valor=" + str(valores) )

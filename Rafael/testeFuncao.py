@@ -1,4 +1,0 @@
-
-
-def testeRafa():
-    print("mostrae")
