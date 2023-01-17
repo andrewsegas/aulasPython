@@ -1,1 +1,2 @@
 #inicio
+print("meu peru")
